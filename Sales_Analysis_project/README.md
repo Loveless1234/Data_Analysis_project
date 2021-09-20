@@ -138,7 +138,7 @@ To increase the sales growth , Sales director need to look into these areas
 * Table- Shows top to bottom customers by Total profit margin contribution in %
 
 
-<img src="https://github.com/Loveless1234/Data_Analysis_project/blob/main/Sales_Analysis_project/IMG/profit_Analysis.png" width=100% height=100%>
+<img src="https://github.com/Loveless1234/Data_Analysis_project/blob/main/Sales_Analysis_project/IMG/Profit_Analysis.png" width=100% height=100%>
 
 
 ### Performance insights
