@@ -34,7 +34,8 @@ https://www.youtube.com/watch?v=WuBcTJnIuzo
 #### In this same manner We are going to fetch the data from the database and then we are going to transform and load the data in the Tableau to build the dashboard.
 
 * Import the sql script in MySQL workbench 
-<img src="/Users/ranjitsah/Desktop/Sales_Analysis_project/IMG/Mysql_workbench.png" width=75% height=75%>
+* 
+<img src="https://github.com/Loveless1234/Data_Analysis_project/blob/main/Sales_Analysis_project/IMG/Loading_data.png" width=75% height=75%>
 
 * Simple analysis of data by looking into different tables and reflecting garbage values in MYSQL-
 
@@ -83,11 +84,11 @@ and transactions.market_code="Mark001";`
 
 ### Get data in Tableau from MYSQL database- Provide your server name and database 
 
-<img src="/Users/ranjitsah/Desktop/Sales_Analysis_project/IMG/Mysql_connect.png" width=50% height=50%>
+<img src="https://github.com/Loveless1234/Data_Analysis_project/blob/main/Sales_Analysis_project/IMG/Mysql_connect.png" width=50% height=50%>
 
 ### Load data in Tableau
 
-<img src="/Users/ranjitsah/Desktop/Sales_Analysis_project/IMG/Loading_data.png" width=75% height=75%>
+<img src="https://github.com/Loveless1234/Data_Analysis_project/blob/main/Sales_Analysis_project/IMG/Loading_data.png" width=75% height=75%>
 
 
 ## Data Cleansing - Perfromed ETL in Power Query Editor 
@@ -100,13 +101,13 @@ and transactions.market_code="Mark001";`
 
 Normalized Amount = IF [Currency] == 'USD' THEN [Sales Amount]*74 ELSE [Sales Amount] END
 
-<img src="/Users/ranjitsah/Desktop/Sales_Analysis_project/IMG/Normalized Amount.png" width=75% height=75%>
+<img src="https://github.com/Loveless1234/Data_Analysis_project/blob/main/Sales_Analysis_project/IMG/Normalized%20Amount.png" width=75% height=75%>
 
 ## Data Modeling
 
 Created Entity-Relationship between tables, the model eventually forms star schema
 
-<img src="/Users/ranjitsah/Desktop/Sales_Analysis_project/IMG/schema_star.png" width=75% height=75%>
+<img src="https://github.com/Loveless1234/Data_Analysis_project/blob/main/Sales_Analysis_project/IMG/schema_star.png" width=75% height=75%>
 
 ## Data Visualization/Dashboard
 
@@ -126,7 +127,8 @@ To increase the sales growth , Sales director need to look into these areas
 * Revenue by Zone(can also be filtered out)
 * Sales Quantity by Zone (can also be filtered out)
 
-<img src="https://github.com/sweety21-coder/Atliq-Hardware-sales-data-analysis/blob/main/Key%20Insights.PNG?raw=true" width=50% height =50%>
+
+<img src="https://github.com/Loveless1234/Data_Analysis_project/blob/main/Sales_Analysis_project/IMG/sales_revenue.png" width=100% height=100%>
 
 
 ### Profit Analysis
@@ -136,7 +138,7 @@ To increase the sales growth , Sales director need to look into these areas
 * Table- Shows top to bottom customers by Total profit margin contribution in %
 
 
-<img src="https://github.com/sweety21-coder/Atliq-Hardware-sales-data-analysis/blob/main/IMG/Profit%20Analysis.PNG?raw=true" width=50% height=50%>
+<img src="https://github.com/Loveless1234/Data_Analysis_project/blob/main/Sales_Analysis_project/IMG/profit_Analysis.png" width=100% height=100%>
 
 
 ### Performance insights
@@ -144,9 +146,7 @@ To increase the sales growth , Sales director need to look into these areas
 As chart shows negative or low profit margin %(below 2%) for few zones alterted red mark which indicates these are concerned area.
 * Revenue Trend - Shows comparision of revenue from previous year to current year (2020) where line chart indicating profit margin trend.
 * Table- Shows Top to bottom customer by Profit margin %.
-
-
-<img src="https://github.com/sweety21-coder/Atliq-Hardware-sales-data-analysis/blob/main/IMG/Performance%20insights.PNG?raw=true" width=50% height=50%>
+<img src="https://github.com/Loveless1234/Data_Analysis_project/blob/main/Sales_Analysis_project/IMG/sales_revenue.png" width=100% height=100%>
 
 
 
